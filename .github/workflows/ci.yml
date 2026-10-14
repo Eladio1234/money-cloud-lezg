@@ -28,5 +28,5 @@ jobs:
         run: npm run build
       
       - name: Build Api Docker image
-        run: docker build -f apps/api/Dockerfile -t moneymanager-api:ci
-        
+        run: docker build -f apps/api/Dockerfile -t moneymanager-api:ci .
+
